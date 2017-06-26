@@ -218,12 +218,10 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = 92AH767BX3;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = 92AH767BX3;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -502,7 +500,7 @@
 			baseConfigurationReference = B9F2186088F2411B6C766466 /* Pods-JATableViewRowAction_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 92AH767BX3;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = JATableViewRowAction/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -517,7 +515,7 @@
 			baseConfigurationReference = 9EE1BE3758F5EEC6208927F5 /* Pods-JATableViewRowAction_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 92AH767BX3;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = JATableViewRowAction/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -531,7 +529,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D25F3AF9E7E96BAFD68EA0E9 /* Pods-JATableViewRowAction_Tests.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 92AH767BX3;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -552,7 +550,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4459171EF16DB8A9BD0445D0 /* Pods-JATableViewRowAction_Tests.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 92AH767BX3;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
