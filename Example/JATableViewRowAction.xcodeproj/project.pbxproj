@@ -13,6 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		6E78B6EB1F01946000D5AE03 /* JATableViewRowAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E78B6EA1F01946000D5AE03 /* JATableViewRowAction.swift */; };
 		88AB4584F25A49F1D56F4D3C /* Pods_JATableViewRowAction_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ED6ADBA855F84AE5888663 /* Pods_JATableViewRowAction_Tests.framework */; };
 		94A94D614443992B03E970E8 /* Pods_JATableViewRowAction_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED95677C35E99A43C550D48 /* Pods_JATableViewRowAction_Example.framework */; };
 /* End PBXBuildFile section */
@@ -39,13 +40,14 @@
 		607FACE51AFB9204008FA782 /* JATableViewRowAction_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JATableViewRowAction_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		882DC1BD33348132FDCF5C7D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6E78B6EA1F01946000D5AE03 /* JATableViewRowAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JATableViewRowAction.swift; sourceTree = "<group>"; };
+		882DC1BD33348132FDCF5C7D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9EE1BE3758F5EEC6208927F5 /* Pods-JATableViewRowAction_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JATableViewRowAction_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JATableViewRowAction_Example/Pods-JATableViewRowAction_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B9F2186088F2411B6C766466 /* Pods-JATableViewRowAction_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JATableViewRowAction_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JATableViewRowAction_Example/Pods-JATableViewRowAction_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BBADD1FC4D8512A5951E6895 /* JATableViewRowAction.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JATableViewRowAction.podspec; path = ../JATableViewRowAction.podspec; sourceTree = "<group>"; };
+		BBADD1FC4D8512A5951E6895 /* JATableViewRowAction.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JATableViewRowAction.podspec; path = ../JATableViewRowAction.podspec; sourceTree = "<group>"; };
 		BED95677C35E99A43C550D48 /* Pods_JATableViewRowAction_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JATableViewRowAction_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D25F3AF9E7E96BAFD68EA0E9 /* Pods-JATableViewRowAction_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JATableViewRowAction_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JATableViewRowAction_Tests/Pods-JATableViewRowAction_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E50BD8F7CDDB7A551C0D980E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E50BD8F7CDDB7A551C0D980E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F0ED6ADBA855F84AE5888663 /* Pods_JATableViewRowAction_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JATableViewRowAction_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -152,6 +154,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				6E78B6EA1F01946000D5AE03 /* JATableViewRowAction.swift */,
 				BBADD1FC4D8512A5951E6895 /* JATableViewRowAction.podspec */,
 				E50BD8F7CDDB7A551C0D980E /* README.md */,
 				882DC1BD33348132FDCF5C7D /* LICENSE */,
@@ -215,10 +218,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 92AH767BX3;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 92AH767BX3;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -363,6 +368,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				6E78B6EB1F01946000D5AE03 /* JATableViewRowAction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +502,7 @@
 			baseConfigurationReference = B9F2186088F2411B6C766466 /* Pods-JATableViewRowAction_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 92AH767BX3;
 				INFOPLIST_FILE = JATableViewRowAction/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +517,7 @@
 			baseConfigurationReference = 9EE1BE3758F5EEC6208927F5 /* Pods-JATableViewRowAction_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 92AH767BX3;
 				INFOPLIST_FILE = JATableViewRowAction/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -523,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D25F3AF9E7E96BAFD68EA0E9 /* Pods-JATableViewRowAction_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 92AH767BX3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,6 +552,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4459171EF16DB8A9BD0445D0 /* Pods-JATableViewRowAction_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 92AH767BX3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

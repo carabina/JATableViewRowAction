@@ -1,0 +1,16 @@
+PODS:
+  - JATableViewRowAction (0.1.0)
+
+DEPENDENCIES:
+  - JATableViewRowAction (from `../`)
+
+EXTERNAL SOURCES:
+  JATableViewRowAction:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JATableViewRowAction: 4758bd972946a2ecb371e6aad3e534bf0beef523
+
+PODFILE CHECKSUM: 4f5910553d271f42fbb6ed24578c66ff096e4abe
+
+COCOAPODS: 1.2.1
