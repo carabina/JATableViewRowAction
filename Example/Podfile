@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JATableViewRowAction_Example' do
+  pod 'JATableViewRowAction', :path => '../'
+
+  target 'JATableViewRowAction_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
